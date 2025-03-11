@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dice Project</string>
+    <string name="dice_one">1</string>
+    <string name="roll_text">Roll</string>
+    <string name="new_game">New Game</string>
+    <string name="help_button">Instructions</string>
+    <string name="Doubles">Oh No! Pooh rolled a 4 and it caused him to slip down 4 branches</string>
+    <string name="Wind">Oh No! A sudden gust of wind blew Pooh sideways and stopped him from making progress</string>
+    <string name="Bees">Oh No! Pooh ran into a swarm of Bees, Pooh loses his next turn as a result</string>
+    <string name="Winning">Congratulations! Pooh was able to reach the top of the tree and gets to satiate his hunger with some honey!</string>
+</resources>
