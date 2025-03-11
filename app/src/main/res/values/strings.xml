@@ -4,8 +4,9 @@
     <string name="roll_text">Roll</string>
     <string name="new_game">New Game</string>
     <string name="help_button">Instructions</string>
-    <string name="Doubles">Oh No! Pooh rolled a 4 and it caused him to slip down 4 branches</string>
-    <string name="Wind">Oh No! A sudden gust of wind blew Pooh sideways and stopped him from making progress</string>
-    <string name="Bees">Oh No! Pooh ran into a swarm of Bees, Pooh loses his next turn as a result</string>
-    <string name="Winning">Congratulations! Pooh was able to reach the top of the tree and gets to satiate his hunger with some honey!</string>
+    <string name="Doubles">Oh No! Pooh rolled Doubles\ and it caused him to slip down 4 branches</string>
+    <string name="Wind">Oh No! A sudden gust of wind blew Pooh sideways\ and stopped him from making progress</string>
+    <string name="Bees">Oh No! Pooh ran into a swarm of Bees!\ Pooh loses his next turn as a result</string>
+    <string name="Winning">Pooh reached the top of the tree!\ Now Pooh can satiate his hunger with some honey!</string>
+    <string name="help_text">Winnie-the-Pooh heard a strange noise—a buzzing noise. He looked up and saw a beehive high in a tree. \'Oh bother,\' he thought. \'If only I could climb up there and get some honey!\'. “Winnie-the-Pooh sat down at the foot of the tree, put his head between his paws and began to think”. Help Winnie-the-Pooh climb to the top of the tree and reach the beehive on Branch 30 before his honey cravings get the best of him! Each turn, roll two animated dice to determine how many branches he climbs. However, watch out for tricky obstacles!</string>
 </resources>

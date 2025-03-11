@@ -25,6 +25,10 @@ class Dice(diceNumber: Int) {
         number = diceNumber
     }
 
+    /**
+     * Rolls the dice by generating a random number between
+     * Smallest number to Largest number inclusive
+     */
     fun roll() {
         number = (SMALLEST_NUM..LARGEST_NUM).random()
     }

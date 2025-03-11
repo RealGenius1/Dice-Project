@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,73 +11,16 @@
     android:layout_height="match_parent"
     tools:context="com.zybooks.diceproject.HelpActivity">
 
-    <TextView
-        android:id="@+id/StoryText"
-        android:textSize="25sp"
-        android:layout_margin="100dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:text="Winnie-the-Pooh heard a strange noise—a buzzing noise. He looked up and saw a beehive high in a tree. 'Oh bother,' he thought.
- 'If only I could climb up there and get some honey!'. “Winnie-the-Pooh sat down at the foot of the tree, put his head between his paws and began to think”.
- Help Winnie-the-Pooh
- climb to the top of the tree and reach the beehive on Branch 30 before his
- honey cravings get the best of him! Each turn, roll two animated dice to
- determine how many branches he climbs. However, watch out for tricky
- obstacles!"
-        />
-<!--    <TextView-->
-<!--        android:id="@+id/Rolling"-->
-<!--        android:textSize="25sp"-->
-<!--        android:layout_margin="30dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Rolling the Dice: Each die rolls a value between 1-6 and adds up to-->
-<!--determine how many branches Pooh climbs"-->
-<!--        />-->
-<!--    <TextView-->
-<!--        android:id="@+id/Doubles"-->
-<!--        android:textSize="50sp"-->
-<!--        android:layout_margin="30dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Doubles Penalty: Rolling two of the same number (e.g., 1 &amp; 1, 2 &amp; 2, etc.)-->
-<!--causes Pooh to slip down 4 branches. If he is on a lower branch than that, he falls to the ground (Branch 0)."-->
-<!--        />-->
-<!--    <TextView-->
-<!--        android:id="@+id/Wind"-->
-<!--        android:textSize="50sp"-->
-<!--        android:layout_margin="30dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Windy Day Challenge: Rolling a total of 4 (e.g., 1 &amp; 3 or 2 &amp; 2) means a-->
-<!--gust of wind blows Pooh sideways, causing him to stay on the same branch."-->
-<!--        />-->
-<!--    <TextView-->
-<!--        android:id="@+id/Bee"-->
-<!--        android:textSize="50sp"-->
-<!--        android:layout_margin="30dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Bee Swarm Trouble: If Pooh lands on Branches 10 or 20 exactly, a swarm of bees slows him down, forcing him to skip his next roll."-->
-<!--        />-->
-<!--    <TextView-->
-<!--        android:id="@+id/WinCon"-->
-<!--        android:textSize="25sp"-->
-<!--        android:layout_margin="30dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Winning Condition: If Pooh reaches Branch 30 or higher, he gets to-->
-<!--settle the rumble in his tummy and eat some honey (or ‘hunny’ as Winnie- -->
-<!--the-Pooh spells it)!"-->
-<!--        />-->
+        <TextView
+            android:id="@+id/StoryText"
+            android:textSize="25sp"
+            android:layout_margin="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/help_text"
+            />
 
-
-
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
