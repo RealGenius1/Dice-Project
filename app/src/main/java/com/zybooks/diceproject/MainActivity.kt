@@ -99,6 +99,7 @@ class MainActivity : AppCompatActivity() {
 
                     //CASE 1: Doubles -> Drop 4 branches
                     if(diceList[0].number == diceList[1].number){
+                        //NOTE: Some screens sizes have trouble with the toast messages. Purely Visual.
                         Toast.makeText(this@MainActivity, R.string.Doubles, Toast.LENGTH_LONG).show()
                         if(branch < 4){
                             branch = 0;
