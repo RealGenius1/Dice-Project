@@ -2,6 +2,11 @@
 
 Code written by Spencer Thomas(https://github.com/RealGenius1) for ECCS 2431: Mobile App Development
 
+# Instructions
+
+Each turn Winnie the Pooh rolls 2 dice and moves up that many branches, but watch out for unknown hazards along the way!
+Try to reach Branch 30 to Win!!
+
 ## Credits
 
 Contributors:
